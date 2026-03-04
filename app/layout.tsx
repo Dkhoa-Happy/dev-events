@@ -4,7 +4,10 @@ import LightRays from "@/components/LightRays";
 import "./globals.css";
 import Navbar from "@/components/NavBar";
 
-
+const schibstedGrotesk = Schibsted_Grotesk({
+  variable: "--font-schibsted-grotesk",
+  subsets: ["latin"],
+});
 
 const martianMono = Martian_Mono({
   variable: "--font-martian-mono",
