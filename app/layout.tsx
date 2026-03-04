@@ -7,7 +7,16 @@ import Navbar from "@/components/NavBar";
 const schibstedGrotesk = Schibsted_Grotesk({
   variable: "--font-schibsted-grotesk",
   subsets: ["latin"],
- for Every Dev Event You Mustn't Miss",
+});
+
+const martianMono = Martian_Mono({
+  variable: "--font-martian-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "DevEvent",
+  description: "The Hub for Every Dev Event You Mustn't Miss",
 };
 
 export default function RootLayout({
